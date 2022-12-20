@@ -420,8 +420,25 @@ li > a:only-child:after {
     min-height: 50em;
 }
 
+.main-contentt {
+    background: url(../images/banner2.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 2%;
+}
+
+
+
 .layer {
     min-height: 50em;
+    background: rgba(0, 0, 0, 0.52);
+}
+.layerr {
+    min-height: 2%;
     background: rgba(0, 0, 0, 0.52);
 }
 
@@ -807,6 +824,38 @@ border:none;
     -ms-background-size: cover;
     background-size: cover;
 }
+#about-right-1Construction{
+	background: url(../images/bg5.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+#about-right-1Electrical{
+	background: url(../images/bg8.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+#about-right-1IT{
+	background: url(../images/bg7.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+#about-right-1CityClocks{
+	background: url(../images/bg6.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
 .wth_abt{
 	background:#fff;
 	padding:7em 10em;
@@ -885,6 +934,38 @@ p.sub-test {
     -ms-background-size: cover;
     background-size: cover;
 }
+#about-text-grid3Agro {
+    background: url(../images/bg10.jpg) center no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
+     background-size: cover;
+ }
+ #about-text-grid3Health {
+    background: url(../images/bg9.jpg) center no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
+     background-size: cover;
+ }
+ #about-text-grid3Minerals {
+    background: url(../images/bg11.jpg) center no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
+     background-size: cover;
+ }
+ #about-text-grid3Assurance {
+    background: url(../images/bg12.jpg) center no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
+     background-size: cover;
+ }
 .about-text-grid1 {
    background: url(../images/bg2.jpg) center no-repeat;
     -webkit-background-size: cover;
@@ -1457,7 +1538,75 @@ h3.tittle1 {
     min-height: 23em;
 }
 
-
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
   
 
 
